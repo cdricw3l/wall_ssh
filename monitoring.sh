@@ -38,15 +38,15 @@ ARCH=$(uname -a | cut -d " " -f1,2,3,4,5,7,8,11,12,15)
 
 
 echo "#Architecture: "$ARCH
-# echo "#Physical CPU: "$PCPU
-# echo "#vCPU: $VCPU"
-# echo "#Memory Usage: " $RAM_USED'/'$RAM_TOTAL'MB('$TOTAL_RATIO'%)'
-# echo "#Disk Usage: "$DF_USED'/'$DF_TOTAL'Gi ('$DF_RATIO')'
-# echo "#Last boot: $LAST_BOOT"
-# echo "#LVM use:$LVM"
-# echo "#TCP Connections: $TCP"
-# echo "#User log: $USER_LOG"
-# echo "#Network: IP $IP $MAC"  
+echo "#Physical CPU: "$PCPU
+echo "#vCPU: $VCPU"
+echo "#Memory Usage: " $RAM_USED'/'$RAM_TOTAL'MB('$TOTAL_RATIO'%)'
+echo "#Disk Usage: "$DF_USED'/'$DF_TOTAL'Gi ('$DF_RATIO')'
+echo "#Last boot: $LAST_BOOT"
+echo "#LVM use:$LVM"
+echo "#TCP Connections: $TCP"
+echo "#User log: $USER_LOG"
+echo "#Network: IP $IP $MAC"  
 
 
 
